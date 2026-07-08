@@ -406,7 +406,7 @@ find ~/.claude/plugins -name "*.sh" -exec dos2unix {} \;
 
 Si sigues experimentando problemas:
 
-1. **Revisa los Issues de GitHub**: [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/StijnCodeSetup/stijncodesetup/issues)
+1. **Revisa los Issues de GitHub**: [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/stijnswapped/stijncodesetup/issues)
 2. **Habilita el Registro de Depuración**:
    ```bash
    export CLAUDE_DEBUG=1

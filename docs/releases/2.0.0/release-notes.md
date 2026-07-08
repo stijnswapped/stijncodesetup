@@ -40,4 +40,4 @@ The SCS Discord is live: <https://discord.gg/36yGMHGFbR>
 
 Existing installs: `/plugin update scs`
 
-Full changelog: <https://github.com/StijnCodeSetup/StijnCodeSetup/compare/v2.0.0-rc.1...v2.0.0>
+Full changelog: <https://github.com/stijnswapped/stijncodesetup/compare/v2.0.0-rc.1...v2.0.0>

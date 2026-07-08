@@ -82,7 +82,7 @@ can turn it into a deeper integration or launch motion.
 
 Repo: https://github.com/StijnCodeSetup/StijnCodeSetup
 Sponsor: https://github.com/sponsors/StijnCodeSetup
-Release notes: https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md
+Release notes: https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md
 
 If useful, I can send the short sponsor packet and a proposed first 30-day plan.
 
@@ -210,8 +210,8 @@ Use these with the release video suite:
 ## Routing Links
 
 - Repo: <https://github.com/StijnCodeSetup/StijnCodeSetup>
-- Release notes: <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md>
-- Quickstart: <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/quickstart.md>
+- Release notes: <https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md>
+- Quickstart: <https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/quickstart.md>
 - Sponsor: <https://github.com/sponsors/StijnCodeSetup>
-- Sponsor tiers: <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/SPONSORS.md>
-- Sponsoring guide: <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/SPONSORING.md>
+- Sponsor tiers: <https://github.com/stijnswapped/stijncodesetup/blob/main/SPONSORS.md>
+- Sponsoring guide: <https://github.com/stijnswapped/stijncodesetup/blob/main/SPONSORING.md>

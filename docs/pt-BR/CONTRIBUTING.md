@@ -418,7 +418,7 @@ Como você testou isso.
 
 ## Dúvidas?
 
-- **Issues:** [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/StijnCodeSetup/stijncodesetup/issues)
+- **Issues:** [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/stijnswapped/stijncodesetup/issues)
 - **X/Twitter:** [@StijnCodeSetup](https://x.com/StijnCodeSetup)
 
 ---

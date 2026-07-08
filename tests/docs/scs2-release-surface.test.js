@@ -111,7 +111,7 @@ test('business launch copy stays aligned with the rc.1 public surface', () => {
   assert.ok(source.includes('SCS v2.0.0-rc.1'), 'business launch copy should use the rc.1 release');
   assert.ok(source.includes('preview pack is ready for final release review'), 'business launch copy should stay pre-publication until release URLs exist');
   assert.ok(source.includes('https://github.com/StijnCodeSetup/StijnCodeSetup'), 'business launch copy should include the public repo URL');
-  assert.ok(source.includes('https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md'), 'business launch copy should link to the rc.1 release notes');
+  assert.ok(source.includes('https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md'), 'business launch copy should link to the rc.1 release notes');
   assert.ok(!source.includes('<repo-link>'), 'business launch copy should not contain repo placeholders');
   assert.ok(!source.includes('v1.8.0'), 'business launch copy should not stay pinned to v1.8.0');
 });

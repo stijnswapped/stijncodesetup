@@ -73,7 +73,7 @@ npm `next` readbacks, see
 | --- | --- | --- | --- | --- | --- | --- |
 | Product name | SCS | `README.md`, plugin manifests, release notes | `rg -n "^# SCS\|displayName.*SCS\|StijnCodeSetup/StijnCodeSetup" README.md .codex-plugin/plugin.json docs/releases/2.0.0-rc.1` | `release-name-plugin-publication-checklist-2026-05-18.md` plus `release-url-ledger-2026-05-19.md` | Release owner | Evidence recorded |
 | GitHub repo | `StijnCodeSetup/StijnCodeSetup` | Git remote and release URLs | `git remote get-url origin` | `release-url-ledger-2026-05-19.md` | Release owner | Evidence recorded |
-| Git tag | `v2.0.0-rc.1` | GitHub releases | `gh release view v2.0.0-rc.1 --repo StijnCodeSetup/StijnCodeSetup` | Live prerelease at <https://github.com/StijnCodeSetup/StijnCodeSetup/releases/tag/v2.0.0-rc.1>; prerelease true, draft false | Release owner | Evidence recorded |
+| Git tag | `v2.0.0-rc.1` | GitHub releases | `gh release view v2.0.0-rc.1 --repo StijnCodeSetup/StijnCodeSetup` | Live prerelease at <https://github.com/stijnswapped/stijncodesetup/releases/tag/v2.0.0-rc.1>; prerelease true, draft false | Release owner | Evidence recorded |
 | npm package | `stijncodesetup` | `package.json` | `node -p "require('./package.json').name"` | `publication-evidence-2026-05-12.md` | Package owner | Evidence recorded |
 | npm version | `2.0.0-rc.1` | `VERSION`, `package.json`, lockfiles | `node -p "require('./package.json').version"` | `publication-evidence-2026-05-12.md` | Package owner | Evidence recorded |
 | npm dist-tag | `next` for rc, `latest` only for GA | npm registry | `npm view stijncodesetup dist-tags --json` | Registry has `latest: 1.10.0` and `next: 2.0.0-rc.1` | Package owner | Evidence recorded |

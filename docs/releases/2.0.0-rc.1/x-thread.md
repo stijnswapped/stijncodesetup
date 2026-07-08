@@ -103,13 +103,13 @@ Repo:
 <https://github.com/StijnCodeSetup/StijnCodeSetup>
 
 Hermes x SCS setup:
-<https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/HERMES-SETUP.md>
+<https://github.com/stijnswapped/stijncodesetup/blob/main/docs/HERMES-SETUP.md>
 
 15/ Release notes:
-<https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md>
+<https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md>
 
 Itô skill pack boundary:
-<https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/ito-prediction-market-skill-pack.md>
+<https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/ito-prediction-market-skill-pack.md>
 
 URL ledger:
-<https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/release-url-ledger-2026-05-19.md>
+<https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/release-url-ledger-2026-05-19.md>

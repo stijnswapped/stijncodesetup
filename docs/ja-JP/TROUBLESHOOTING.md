@@ -407,7 +407,7 @@ find ~/.claude/plugins -name "*.sh" -exec dos2unix {} \;
 
 問題が解決しない場合：
 
-1. **GitHub Issuesを確認**: [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/StijnCodeSetup/stijncodesetup/issues)
+1. **GitHub Issuesを確認**: [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/stijnswapped/stijncodesetup/issues)
 2. **デバッグログを有効化**:
    ```bash
    export CLAUDE_DEBUG=1

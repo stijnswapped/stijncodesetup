@@ -499,7 +499,7 @@ How you tested this.
 
 ## Questions?
 
-- **Issues:** [github.com/StijnCodeSetup/StijnCodeSetup/issues](https://github.com/StijnCodeSetup/StijnCodeSetup/issues)
+- **Issues:** [github.com/StijnCodeSetup/StijnCodeSetup/issues](https://github.com/stijnswapped/stijncodesetup/issues)
 - **X/Twitter:** [@StijnCodeSetup](https://x.com/StijnCodeSetup)
 
 ---

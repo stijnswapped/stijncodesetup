@@ -1,6 +1,6 @@
 # StijnCodeSetup
 
-[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/stargazers)
+[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Shell](https://img.shields.io/badge/-Shell-4EAA25?logo=gnu-bash&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)

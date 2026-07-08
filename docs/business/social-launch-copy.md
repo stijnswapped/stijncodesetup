@@ -17,7 +17,7 @@ What ships:
 - Hermes import guidance for turning local operator workflows into public SCS skills
 
 Start here: https://github.com/StijnCodeSetup/StijnCodeSetup
-Release notes: https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md
+Release notes: https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md
 ```
 
 ## X Post: Proof + Metrics
@@ -69,5 +69,5 @@ This release-candidate surface includes:
 It does not include private workspace state, credentials, raw local exports, or personal datasets.
 
 Repo: https://github.com/StijnCodeSetup/StijnCodeSetup
-Release notes: https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md
+Release notes: https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md
 ```

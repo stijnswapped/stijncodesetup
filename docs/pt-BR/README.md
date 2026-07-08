@@ -2,9 +2,9 @@
 
 # StijnCodeSetup
 
-[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/stargazers)
-[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/network/members)
-[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/stargazers)
+[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/network/members)
+[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/graphs/contributors)
 [![npm stijncodesetup](https://img.shields.io/npm/dw/stijncodesetup?label=stijncodesetup%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/stijncodesetup)
 [![npm scs-agentshield](https://img.shields.io/npm/dw/scs-agentshield?label=scs-agentshield%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/scs-agentshield)
 [![GitHub App Install](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.scs.tools%2Fbadge%2Finstalls&logo=github)](https://github.com/marketplace/scs-tools)

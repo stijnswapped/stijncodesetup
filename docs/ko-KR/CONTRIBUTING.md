@@ -445,7 +445,7 @@ docs: improve contributing guide
 
 ## 질문이 있으신가요?
 
-- **이슈:** [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/StijnCodeSetup/stijncodesetup/issues)
+- **이슈:** [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/stijnswapped/stijncodesetup/issues)
 - **X/Twitter:** [@StijnCodeSetup](https://x.com/StijnCodeSetup)
 
 ---

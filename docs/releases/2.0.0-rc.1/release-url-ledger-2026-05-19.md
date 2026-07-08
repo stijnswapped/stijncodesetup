@@ -14,15 +14,15 @@ must still be checked from the exact release commit before publication.
 | Surface | URL | Verification |
 | --- | --- | --- |
 | Repository | <https://github.com/StijnCodeSetup/StijnCodeSetup> | `git remote get-url origin` returns `https://github.com/StijnCodeSetup/StijnCodeSetup.git` |
-| GitHub prerelease URL | <https://github.com/StijnCodeSetup/StijnCodeSetup/releases/tag/v2.0.0-rc.1> | `gh release view v2.0.0-rc.1 --repo StijnCodeSetup/StijnCodeSetup --json tagName,url,isPrerelease,isDraft,publishedAt` returned prerelease `true`, draft `false`, published `2026-05-25T18:29:31Z` |
-| Release pack folder | <https://github.com/StijnCodeSetup/StijnCodeSetup/tree/main/docs/releases/2.0.0-rc.1> | In-tree release pack |
-| Release notes draft | <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md> | In-tree release copy |
-| Hermes setup guide | <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/HERMES-SETUP.md> | In-tree sanitized Hermes guide |
-| May 19 evidence snapshot | <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/publication-evidence-2026-05-19.md> | Current strongest identity, video, growth, and CI readiness evidence |
-| May 18 evidence snapshot | <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/publication-evidence-2026-05-18.md> | Previous supply-chain and publication-path readiness evidence |
-| May 18 operator dashboard | <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/operator-readiness-dashboard-2026-05-18.md> | Previous prompt-to-artifact dashboard |
-| May 19 operator dashboard | <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/operator-readiness-dashboard-2026-05-19.md> | Previous prompt-to-artifact dashboard with hypergrowth, video, and outbound lanes |
-| May 20 operator dashboard | <https://github.com/StijnCodeSetup/StijnCodeSetup/blob/main/docs/releases/2.0.0-rc.1/operator-readiness-dashboard-2026-05-20.md> | Current prompt-to-artifact dashboard with Marketplace Pro release-gate sync |
+| GitHub prerelease URL | <https://github.com/stijnswapped/stijncodesetup/releases/tag/v2.0.0-rc.1> | `gh release view v2.0.0-rc.1 --repo StijnCodeSetup/StijnCodeSetup --json tagName,url,isPrerelease,isDraft,publishedAt` returned prerelease `true`, draft `false`, published `2026-05-25T18:29:31Z` |
+| Release pack folder | <https://github.com/stijnswapped/stijncodesetup/tree/main/docs/releases/2.0.0-rc.1> | In-tree release pack |
+| Release notes draft | <https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/release-notes.md> | In-tree release copy |
+| Hermes setup guide | <https://github.com/stijnswapped/stijncodesetup/blob/main/docs/HERMES-SETUP.md> | In-tree sanitized Hermes guide |
+| May 19 evidence snapshot | <https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/publication-evidence-2026-05-19.md> | Current strongest identity, video, growth, and CI readiness evidence |
+| May 18 evidence snapshot | <https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/publication-evidence-2026-05-18.md> | Previous supply-chain and publication-path readiness evidence |
+| May 18 operator dashboard | <https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/operator-readiness-dashboard-2026-05-18.md> | Previous prompt-to-artifact dashboard |
+| May 19 operator dashboard | <https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/operator-readiness-dashboard-2026-05-19.md> | Previous prompt-to-artifact dashboard with hypergrowth, video, and outbound lanes |
+| May 20 operator dashboard | <https://github.com/stijnswapped/stijncodesetup/blob/main/docs/releases/2.0.0-rc.1/operator-readiness-dashboard-2026-05-20.md> | Current prompt-to-artifact dashboard with Marketplace Pro release-gate sync |
 | npm package page | <https://www.npmjs.com/package/stijncodesetup> | `npm view stijncodesetup name version dist-tags versions --json` returned `latest: 1.10.0`, `next: 2.0.0-rc.1`, and included `2.0.0-rc.1` in `versions` |
 | npm rc package URL | <https://www.npmjs.com/package/stijncodesetup/v/2.0.0-rc.1> | `npm view stijncodesetup@2.0.0-rc.1 name version dist.tarball dist.integrity time --json` returned version `2.0.0-rc.1`, tarball `https://registry.npmjs.org/stijncodesetup/-/stijncodesetup-2.0.0-rc.1.tgz`, and published time `2026-05-26T00:36:22.940Z` |
 | Codex marketplace CLI docs | <https://developers.openai.com/codex/cli/reference#codex-plugin-marketplace> | Official docs list `codex plugin marketplace add` for GitHub shorthand, Git URLs, SSH URLs, and local marketplace roots |

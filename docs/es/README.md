@@ -4,9 +4,9 @@
 
 ![SCS - el sistema operativo nativo del harness para trabajo agentivo](../../assets/hero.png)
 
-[![Stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.scs.tools%2Fbadge%2Fstars&style=flat)](https://github.com/StijnCodeSetup/StijnCodeSetup/stargazers)
-[![Forks](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.scs.tools%2Fbadge%2Fforks&style=flat)](https://github.com/StijnCodeSetup/StijnCodeSetup/network/members)
-[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/StijnCodeSetup?style=flat)](https://github.com/StijnCodeSetup/StijnCodeSetup/graphs/contributors)
+[![Stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.scs.tools%2Fbadge%2Fstars&style=flat)](https://github.com/stijnswapped/stijncodesetup/stargazers)
+[![Forks](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.scs.tools%2Fbadge%2Fforks&style=flat)](https://github.com/stijnswapped/stijncodesetup/network/members)
+[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/StijnCodeSetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/graphs/contributors)
 [![npm stijncodesetup](https://img.shields.io/npm/dw/stijncodesetup?label=stijncodesetup%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/stijncodesetup)
 [![npm scs-agentshield](https://img.shields.io/npm/dw/scs-agentshield?label=scs-agentshield%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/scs-agentshield)
 [![GitHub App Install](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.scs.tools%2Fbadge%2Finstalls&logo=github)](https://github.com/marketplace/scs-tools)
@@ -59,7 +59,7 @@ SCS v2.0.0-rc.1 añade la historia pública del operador Hermes sobre esa capa r
   </a>
 </td>
 <td width="25%" align="center">
-  <a href="https://github.com/StijnCodeSetup/StijnCodeSetup/discussions">
+  <a href="https://github.com/stijnswapped/stijncodesetup/discussions">
     <strong>Comunidad</strong>
     <br />
     <sub>Discusiones · Preguntas · Showcase</sub>
@@ -174,7 +174,7 @@ Este repositorio contiene solo el código. Las guías explican todo.
 
 ### v1.4.1 — Corrección de Errores (Feb 2026)
 
-- **Corrección de pérdida de contenido en importación de instintos** — `parse_instinct_file()` descartaba silenciosamente todo el contenido tras el frontmatter (secciones Action, Evidence, Examples) durante `/instinct-import`. ([#148](https://github.com/StijnCodeSetup/StijnCodeSetup/issues/148), [#161](https://github.com/StijnCodeSetup/StijnCodeSetup/pull/161))
+- **Corrección de pérdida de contenido en importación de instintos** — `parse_instinct_file()` descartaba silenciosamente todo el contenido tras el frontmatter (secciones Action, Evidence, Examples) durante `/instinct-import`. ([#148](https://github.com/stijnswapped/stijncodesetup/issues/148), [#161](https://github.com/stijnswapped/stijncodesetup/pull/161))
 
 ### v1.4.0 — Reglas Multi-Lenguaje, Asistente de Instalación y PM2 (Feb 2026)
 
@@ -198,7 +198,7 @@ Este repositorio contiene solo el código. Las guías explican todo.
 - **Gestión de sesiones** — Comando `/sessions` para historial de sesiones
 - **Aprendizaje continuo v2** — Aprendizaje basado en instintos con puntuación de confianza, importación/exportación y evolución
 
-Consulta el changelog completo en [Releases](https://github.com/StijnCodeSetup/StijnCodeSetup/releases).
+Consulta el changelog completo en [Releases](https://github.com/stijnswapped/stijncodesetup/releases).
 
 ---
 
@@ -675,7 +675,7 @@ Claude Code v2.1+ **carga automáticamente** `hooks/hooks.json` de cualquier plu
 Duplicate hooks file detected: ./hooks/hooks.json resolves to already-loaded file
 ```
 
-**Historial:** Esto ha causado ciclos repetidos de corrección/reversión en este repo ([#29](https://github.com/StijnCodeSetup/StijnCodeSetup/issues/29), [#52](https://github.com/StijnCodeSetup/StijnCodeSetup/issues/52), [#103](https://github.com/StijnCodeSetup/StijnCodeSetup/issues/103)). El comportamiento cambió entre versiones de Claude Code, generando confusión. Ahora tenemos una prueba de regresión para prevenir que se reintroduzca.
+**Historial:** Esto ha causado ciclos repetidos de corrección/reversión en este repo ([#29](https://github.com/stijnswapped/stijncodesetup/issues/29), [#52](https://github.com/stijnswapped/stijncodesetup/issues/52), [#103](https://github.com/stijnswapped/stijncodesetup/issues/103)). El comportamiento cambió entre versiones de Claude Code, generando confusión. Ahora tenemos una prueba de regresión para prevenir que se reintroduzca.
 
 ---
 
@@ -948,7 +948,7 @@ Muestra todos los agentes, comandos y skills disponibles del plugin.
 <details>
 <summary><b>Mis hooks no funcionan / Veo errores de "Duplicate hooks file"</b></summary>
 
-Este es el problema más común. **NO añadas un campo `"hooks"` a `.claude-plugin/plugin.json`.** Claude Code v2.1+ carga automáticamente `hooks/hooks.json` de los plugins instalados. Declararlo explícitamente provoca errores de detección de duplicados. Consulta [#29](https://github.com/StijnCodeSetup/StijnCodeSetup/issues/29), [#52](https://github.com/StijnCodeSetup/StijnCodeSetup/issues/52), [#103](https://github.com/StijnCodeSetup/StijnCodeSetup/issues/103).
+Este es el problema más común. **NO añadas un campo `"hooks"` a `.claude-plugin/plugin.json`.** Claude Code v2.1+ carga automáticamente `hooks/hooks.json` de los plugins instalados. Declararlo explícitamente provoca errores de detección de duplicados. Consulta [#29](https://github.com/stijnswapped/stijncodesetup/issues/29), [#52](https://github.com/stijnswapped/stijncodesetup/issues/52), [#103](https://github.com/stijnswapped/stijncodesetup/issues/103).
 </details>
 
 <details>
@@ -1010,7 +1010,7 @@ Sí. SCS es multiplataforma:
 - **Cursor**: Configuraciones pre-traducidas en `.cursor/`. Consulta [Soporte para Cursor IDE](#soporte-para-cursor-ide).
 - **Gemini CLI**: Soporte experimental local al proyecto mediante `.gemini/GEMINI.md` y conexiones compartidas del instalador.
 - **OpenCode**: Soporte completo del plugin en `.opencode/`. Consulta [Soporte para OpenCode](#soporte-para-opencode).
-- **Codex**: Soporte de primera clase para la app macOS y CLI, con guardias de deriva del adaptador y fallback de SessionStart. Consulta PR [#257](https://github.com/StijnCodeSetup/StijnCodeSetup/pull/257).
+- **Codex**: Soporte de primera clase para la app macOS y CLI, con guardias de deriva del adaptador y fallback de SessionStart. Consulta PR [#257](https://github.com/stijnswapped/stijncodesetup/pull/257).
 - **GitHub Copilot (VS Code)**: Capa de instrucciones y prompts mediante `.github/copilot-instructions.md`, `.vscode/settings.json` y `.github/prompts/`. Consulta [Soporte para GitHub Copilot](#soporte-para-github-copilot).
 - **Antigravity**: Configuración estrechamente integrada para flujos de trabajo, skills y reglas aplanadas en `.agent/`. Consulta la [Guía de Antigravity](../ANTIGRAVITY-GUIDE.md).
 - **JoyCode / CodeBuddy**: Adaptadores de instalación selectiva locales al proyecto para comandos, agentes, skills y reglas aplanadas. Consulta la [Guía del Adaptador JoyCode](../JOYCODE-GUIDE.md).

@@ -453,7 +453,7 @@ Bunu nasıl test ettiniz.
 
 ## Sorularınız mı var?
 
-- **Issue'lar:** [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/StijnCodeSetup/stijncodesetup/issues)
+- **Issue'lar:** [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/stijnswapped/stijncodesetup/issues)
 - **X/Twitter:** [@StijnCodeSetup](https://x.com/StijnCodeSetup)
 
 ---

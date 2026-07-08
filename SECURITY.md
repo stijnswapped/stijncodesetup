@@ -15,7 +15,7 @@ Security fixes land on `main` first. Backports are best-effort and only for curr
 
 Use GitHub private vulnerability reporting whenever possible — it reaches the maintainer directly:
 
-- <https://github.com/StijnCodeSetup/StijnCodeSetup/security/advisories/new>
+- <https://github.com/stijnswapped/stijncodesetup/security/advisories/new>
 
 You can also email **<stijn@scs.tools>** (the `security@scs.tools` alias is not monitored — use `stijn@scs.tools`).
 

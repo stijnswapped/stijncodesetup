@@ -33,7 +33,7 @@ codex plugin marketplace add /absolute/path/to/SCS
 The marketplace entry points at `plugins/scs/` — Codex does not discover
 plugins whose local marketplace `source.path` is the marketplace root (`./`),
 so the entry must target a concrete plugin subdirectory (see
-[#2128](https://github.com/StijnCodeSetup/StijnCodeSetup/issues/2128)). That thin plugin folder
+[#2128](https://github.com/stijnswapped/stijncodesetup/issues/2128)). That thin plugin folder
 references the root `skills/` and `.mcp.json` so content stays single-sourced.
 After adding or updating the marketplace, restart Codex and install or enable
 `scs` from the plugin directory.

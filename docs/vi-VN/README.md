@@ -4,9 +4,9 @@
 
 ![StijnCodeSetup - hệ thống hiệu năng cho AI agent harness](../../assets/hero.png)
 
-[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/stargazers)
-[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/network/members)
-[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/stargazers)
+[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/network/members)
+[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/graphs/contributors)
 [![npm stijncodesetup](https://img.shields.io/npm/dw/stijncodesetup?label=stijncodesetup%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/stijncodesetup)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](../../LICENSE)
 
@@ -28,7 +28,7 @@
 
 SCS không chỉ là một bộ cấu hình. Repo này đóng gói agents, skills, hooks, rules, MCP config, selective install, kiểm tra bảo mật, và workflow vận hành cho Claude Code, Codex, Cursor, OpenCode, Gemini và các harness agent khác.
 
-Trang tiếng Việt này là bản onboarding gọn, được phục hồi từ đóng góp cộng đồng trong PR [#1322](https://github.com/StijnCodeSetup/stijncodesetup/pull/1322) và cập nhật để khớp mặt cài đặt hiện tại. README tiếng Anh vẫn là nguồn chuẩn đầy đủ nhất.
+Trang tiếng Việt này là bản onboarding gọn, được phục hồi từ đóng góp cộng đồng trong PR [#1322](https://github.com/stijnswapped/stijncodesetup/pull/1322) và cập nhật để khớp mặt cài đặt hiện tại. README tiếng Anh vẫn là nguồn chuẩn đầy đủ nhất.
 
 ---
 

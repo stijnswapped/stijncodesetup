@@ -208,7 +208,7 @@ So the rule is simple:
 
 ## Related Work
 
-- [Issue #1186](https://github.com/StijnCodeSetup/stijncodesetup/issues/1186)
-- [Discussion #1077](https://github.com/StijnCodeSetup/stijncodesetup/discussions/1077)
+- [Issue #1186](https://github.com/stijnswapped/stijncodesetup/issues/1186)
+- [Discussion #1077](https://github.com/stijnswapped/stijncodesetup/discussions/1077)
 - [Antigravity Guide](./ANTIGRAVITY-GUIDE.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)

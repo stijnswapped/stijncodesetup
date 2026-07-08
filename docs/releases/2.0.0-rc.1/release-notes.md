@@ -114,7 +114,7 @@ What stays local:
 The GitHub prerelease and npm `next` package are live:
 
 - GitHub prerelease:
-  <https://github.com/StijnCodeSetup/StijnCodeSetup/releases/tag/v2.0.0-rc.1>
+  <https://github.com/stijnswapped/stijncodesetup/releases/tag/v2.0.0-rc.1>
 - npm rc package:
   <https://www.npmjs.com/package/stijncodesetup/v/2.0.0-rc.1>
 

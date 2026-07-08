@@ -457,7 +457,7 @@ docs: 完善贡献指南
 
 ## 有问题吗？
 
-* **问题：** [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/StijnCodeSetup/stijncodesetup/issues)
+* **问题：** [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/stijnswapped/stijncodesetup/issues)
 * **X/Twitter：** [@StijnCodeSetup](https://x.com/StijnCodeSetup)
 
 ***

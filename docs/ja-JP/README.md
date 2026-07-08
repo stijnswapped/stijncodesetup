@@ -2,9 +2,9 @@
 
 # StijnCodeSetup
 
-[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/stargazers)
-[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/network/members)
-[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/stargazers)
+[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/network/members)
+[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/graphs/contributors)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Shell](https://img.shields.io/badge/-Shell-4EAA25?logo=gnu-bash&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -71,7 +71,7 @@
 
 ### v1.4.1 — バグ修正（2026年2月）
 
-- **instinctインポート時のコンテンツ喪失を修正** — `/instinct-import`実行時に`parse_instinct_file()`がfrontmatter後のすべてのコンテンツ（Action、Evidence、Examplesセクション）を暗黙的に削除していた問題を修正。コミュニティ貢献者@ericcai0814により解決されました（[#148](https://github.com/StijnCodeSetup/stijncodesetup/issues/148), [#161](https://github.com/StijnCodeSetup/stijncodesetup/pull/161)）
+- **instinctインポート時のコンテンツ喪失を修正** — `/instinct-import`実行時に`parse_instinct_file()`がfrontmatter後のすべてのコンテンツ（Action、Evidence、Examplesセクション）を暗黙的に削除していた問題を修正。コミュニティ貢献者@ericcai0814により解決されました（[#148](https://github.com/stijnswapped/stijncodesetup/issues/148), [#161](https://github.com/stijnswapped/stijncodesetup/pull/161)）
 
 ### v1.4.0 — マルチ言語ルール、インストールウィザード & PM2（2026年2月）
 
@@ -95,7 +95,7 @@
 - **セッション管理** — セッション履歴用の`/sessions`コマンド
 - **継続的学習 v2** — 信頼度スコアリング、インポート/エクスポート、進化を伴うinstinctベースの学習
 
-完全なチェンジログは[Releases](https://github.com/StijnCodeSetup/stijncodesetup/releases)を参照してください。
+完全なチェンジログは[Releases](https://github.com/stijnswapped/stijncodesetup/releases)を参照してください。
 
 ---
 
@@ -416,7 +416,7 @@ Claude Code v2.1+は、インストール済みプラグインの`hooks/hooks.js
 Duplicate hook file detected: ./hooks/hooks.json is already resolved to a loaded file
 ```
 
-**背景:** これは本リポジトリで複数の修正/リバート循環を引き起こしました（[#29](https://github.com/StijnCodeSetup/stijncodesetup/issues/29), [#52](https://github.com/StijnCodeSetup/stijncodesetup/issues/52), [#103](https://github.com/StijnCodeSetup/stijncodesetup/issues/103)）。Claude Codeバージョン間で動作が変わったため混乱がありました。今後を防ぐため回帰テストがあります。
+**背景:** これは本リポジトリで複数の修正/リバート循環を引き起こしました（[#29](https://github.com/stijnswapped/stijncodesetup/issues/29), [#52](https://github.com/stijnswapped/stijncodesetup/issues/52), [#103](https://github.com/stijnswapped/stijncodesetup/issues/103)）。Claude Codeバージョン間で動作が変わったため混乱がありました。今後を防ぐため回帰テストがあります。
 
 ---
 

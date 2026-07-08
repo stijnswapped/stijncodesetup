@@ -51,7 +51,7 @@ Reason:
 
 | Path | Current evidence | Required next action | Blocker |
 | --- | --- | --- | --- |
-| GitHub release | `v2.0.0-rc.1` prerelease is live at <https://github.com/StijnCodeSetup/StijnCodeSetup/releases/tag/v2.0.0-rc.1> | Keep release notes aligned with the URL ledger; rerun evidence before any follow-up release edit | Remaining plugin, video, billing, and outbound URLs still gated |
+| GitHub release | `v2.0.0-rc.1` prerelease is live at <https://github.com/stijnswapped/stijncodesetup/releases/tag/v2.0.0-rc.1> | Keep release notes aligned with the URL ledger; rerun evidence before any follow-up release edit | Remaining plugin, video, billing, and outbound URLs still gated |
 | npm | `stijncodesetup@2.0.0-rc.1` is live on `next`; registry latest remains `1.10.0` | Keep rc on `next`; do not move `latest` before GA approval | Remaining plugin, video, billing, and outbound URLs still gated |
 | Claude plugin | `claude plugin validate .claude-plugin/plugin.json` passed; `claude plugin tag --help` confirms the release tag flow creates `{name}--v{version}` tags and can push them | Run `claude plugin tag .claude-plugin --dry-run` from the clean release commit, then tag/push only after release approval | No plugin release tag created in this pass |
 | Claude marketplace | `.claude-plugin/marketplace.json` points at `scs` and the public repo | Verify marketplace update/install path after tag exists | External marketplace propagation not verified |
@@ -64,7 +64,7 @@ Reason:
 
 | Channel | Current status | Required metadata/evidence | Owner | Blocker or follow-up |
 | --- | --- | --- | --- | --- |
-| GitHub release | Live prerelease at <https://github.com/StijnCodeSetup/StijnCodeSetup/releases/tag/v2.0.0-rc.1> | Tag, release URL, prerelease flag, final release notes, URL ledger | Release owner | Keep release edits behind final evidence and owner approval |
+| GitHub release | Live prerelease at <https://github.com/stijnswapped/stijncodesetup/releases/tag/v2.0.0-rc.1> | Tag, release URL, prerelease flag, final release notes, URL ledger | Release owner | Keep release edits behind final evidence and owner approval |
 | npm | `stijncodesetup@2.0.0-rc.1` is published on `next`; registry latest is `1.10.0` | Pack summary, publish readback, `next` dist-tag readback, registry signature evidence | Package owner | Do not move rc.1 to `latest` before GA approval |
 | Short npm name | `scs` is occupied; `@StijnCodeSetup/scs` returns 404 | Name availability outputs and migration plan | Release owner | Keep `stijncodesetup` for rc.1; scoped rename is post-rc only |
 | Claude plugin | `scs@2.0.0-rc.1` validates; tag dry run would create `scs--v2.0.0-rc.1` | `claude plugin validate .`, `claude plugin tag .claude-plugin --dry-run`, marketplace install/update smoke | Plugin owner | Real tag push and marketplace propagation require release approval |

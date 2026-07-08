@@ -1,8 +1,8 @@
 # StijnCodeSetup
 
-[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/stargazers)
-[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/network/members)
-[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/stargazers)
+[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/network/members)
+[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/graphs/contributors)
 [![npm stijncodesetup](https://img.shields.io/npm/dw/stijncodesetup?label=stijncodesetup%20haftalık%20indirme&logo=npm)](https://www.npmjs.com/package/stijncodesetup)
 [![npm scs-agentshield](https://img.shields.io/npm/dw/scs-agentshield?label=scs-agentshield%20haftalık%20indirme&logo=npm)](https://www.npmjs.com/package/scs-agentshield)
 [![GitHub App Install](https://img.shields.io/badge/GitHub%20App-150%20kurulum-2ea44f?logo=github)](https://github.com/marketplace/scs-tools)
@@ -114,7 +114,7 @@ Bu repository yalnızca ham kodu içerir. Rehberler her şeyi açıklıyor.
 - **Çapraz harness paritesi** — Claude Code, Cursor, OpenCode ve Codex app/CLI arasında davranış sıkılaştırıldı.
 - **997 internal test geçiyor** — Hook/runtime refactor ve uyumluluk güncellemelerinden sonra tam suite yeşil.
 
-[Tam değişiklik günlüğü için Releases bölümüne bakın](https://github.com/StijnCodeSetup/stijncodesetup/releases).
+[Tam değişiklik günlüğü için Releases bölümüne bakın](https://github.com/stijnswapped/stijncodesetup/releases).
 
 ---
 
@@ -365,7 +365,7 @@ Bu, plugin'den mevcut tüm agent'ları, command'ları ve skill'leri gösterir.
 <details>
 <summary><b>Hook'larım çalışmıyor / "Duplicate hooks file" hatası alıyorum</b></summary>
 
-Bu en yaygın sorundur. `.claude-plugin/plugin.json`'a bir `"hooks"` alanı **EKLEMEYİN**. Claude Code v2.1+ kurulu plugin'lerden `hooks/hooks.json`'ı otomatik olarak yükler. Açıkça belirtmek duplicate algılama hatalarına neden olur. Bkz. [#29](https://github.com/StijnCodeSetup/stijncodesetup/issues/29), [#52](https://github.com/StijnCodeSetup/stijncodesetup/issues/52), [#103](https://github.com/StijnCodeSetup/stijncodesetup/issues/103).
+Bu en yaygın sorundur. `.claude-plugin/plugin.json`'a bir `"hooks"` alanı **EKLEMEYİN**. Claude Code v2.1+ kurulu plugin'lerden `hooks/hooks.json`'ı otomatik olarak yükler. Açıkça belirtmek duplicate algılama hatalarına neden olur. Bkz. [#29](https://github.com/stijnswapped/stijncodesetup/issues/29), [#52](https://github.com/stijnswapped/stijncodesetup/issues/52), [#103](https://github.com/stijnswapped/stijncodesetup/issues/103).
 </details>
 
 <details>
@@ -406,7 +406,7 @@ Her component tamamen bağımsızdır.
 Evet. SCS çapraz platformdur:
 - **Cursor**: `.cursor/` içinde önceden çevrilmiş config'ler. [Cursor IDE Desteği](../../README.md#cursor-ide-support) bölümüne bakın.
 - **OpenCode**: `.opencode/` içinde tam plugin desteği. [OpenCode Desteği](../../README.md#opencode-support) bölümüne bakın.
-- **Codex**: macOS app ve CLI için birinci sınıf destek. PR [#257](https://github.com/StijnCodeSetup/stijncodesetup/pull/257)'ye bakın.
+- **Codex**: macOS app ve CLI için birinci sınıf destek. PR [#257](https://github.com/stijnswapped/stijncodesetup/pull/257)'ye bakın.
 - **Antigravity**: İş akışları, skill'ler ve `.agent/` içinde düzleştirilmiş rule'lar için sıkı entegre kurulum.
 - **Claude Code**: Native — bu birincil hedeftir.
 </details>

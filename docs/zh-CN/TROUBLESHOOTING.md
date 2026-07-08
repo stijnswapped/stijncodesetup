@@ -420,7 +420,7 @@ find ~/.claude/plugins -name "*.sh" -exec dos2unix {} \;
 
 如果您仍然遇到问题：
 
-1. **检查 GitHub Issues**：[github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/StijnCodeSetup/stijncodesetup/issues)
+1. **检查 GitHub Issues**：[github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/stijnswapped/stijncodesetup/issues)
 2. **启用调试日志记录**：
    ```bash
    export CLAUDE_DEBUG=1

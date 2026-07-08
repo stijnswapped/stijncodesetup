@@ -31,7 +31,7 @@ installs `scs@scs`. Runtime skill loading from repo marketplaces is still
 unreliable upstream — Codex copies only the plugin folder into its install
 cache, and local/personal marketplace plugins are not always exposed at
 runtime (see [openai/codex#26037](https://github.com/openai/codex/issues/26037)
-and [StijnCodeSetup/StijnCodeSetup#2128](https://github.com/StijnCodeSetup/StijnCodeSetup/issues/2128)).
+and [StijnCodeSetup/StijnCodeSetup#2128](https://github.com/stijnswapped/stijncodesetup/issues/2128)).
 
 After install, `codex plugin list` is not enough to prove the runtime can load
 the referenced skills and assets. From an SCS checkout, run:

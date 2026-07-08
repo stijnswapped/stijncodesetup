@@ -40,7 +40,7 @@ Con la carga diferida (lazy loading), el problema de la ventana de contexto est�
 Para compartir memoria entre sesiones, la mejor opción es una skill o comando que resuma y verifique el progreso, luego lo guarde en un archivo `.tmp` en tu carpeta `.claude` y lo vaya añadiendo hasta el final de tu sesión. Al día siguiente puede usar eso como contexto y retomar donde lo dejaste; crea un nuevo archivo para cada sesión para no contaminar el contexto antiguo en el trabajo nuevo.
 
 ![Árbol de Archivos de Almacenamiento de Sesión](../../assets/images/longform/03-session-storage.png)
-*Ejemplo de almacenamiento de sesión -> <https://github.com/StijnCodeSetup/stijncodesetup/tree/main/examples/sessions>*
+*Ejemplo de almacenamiento de sesión -> <https://github.com/stijnswapped/stijncodesetup/tree/main/examples/sessions>*
 
 Claude crea un archivo resumiendo el estado actual. Revísalo, pide ediciones si es necesario, luego empieza de nuevo. Para la nueva conversación, solo proporciona la ruta del archivo. Particularmente útil cuando estás alcanzando los límites de contexto y necesitas continuar trabajo complejo. Estos archivos deben contener:
 - Qué enfoques funcionaron (verificablemente con evidencia)

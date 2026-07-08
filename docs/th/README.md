@@ -4,9 +4,9 @@
 
 ![StijnCodeSetup — ระบบเพิ่มประสิทธิภาพสำหรับ AI agent harness](../../assets/hero.png)
 
-[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/stargazers)
-[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/network/members)
-[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/stargazers)
+[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/network/members)
+[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/stijnswapped/stijncodesetup/graphs/contributors)
 [![npm stijncodesetup](https://img.shields.io/npm/dw/stijncodesetup?label=stijncodesetup%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/stijncodesetup)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](../../LICENSE)
 
@@ -249,7 +249,7 @@ git add . && git commit -m "feat: add my-skill" && git push -u origin feat/my-co
 
 ## ชุมชน & สนับสนุน
 
-- [GitHub Discussions](https://github.com/StijnCodeSetup/stijncodesetup/discussions) — ถาม-ตอบ, โชว์ผลงาน
+- [GitHub Discussions](https://github.com/stijnswapped/stijncodesetup/discussions) — ถาม-ตอบ, โชว์ผลงาน
 - [GitHub Sponsors](https://github.com/sponsors/StijnCodeSetup) — สนับสนุน OSS เริ่มที่ $5/เดือน
 - [SCS Pro](https://scs.tools/pricing) — private repo + GitHub App ($19/seat/เดือน)
 - [SCS Tools GitHub App](https://github.com/marketplace/scs-tools) — ติดตั้ง, PR audit, มี free tier

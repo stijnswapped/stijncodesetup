@@ -396,7 +396,7 @@ find ~/.claude/plugins -name "*.sh" -exec dos2unix {} \;
 
 Hala sorunlar yaşıyorsanız:
 
-1. **GitHub Issues'ı Kontrol Edin**: [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/StijnCodeSetup/stijncodesetup/issues)
+1. **GitHub Issues'ı Kontrol Edin**: [github.com/StijnCodeSetup/stijncodesetup/issues](https://github.com/stijnswapped/stijncodesetup/issues)
 2. **Debug Logging'i Etkinleştirin**:
    ```bash
    export CLAUDE_DEBUG=1

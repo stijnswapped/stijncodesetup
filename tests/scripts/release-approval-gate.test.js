@@ -263,7 +263,7 @@ function runTests() {
           '',
           '| Surface | Intended URL or command | Gate before use |',
           '| --- | --- | --- |',
-          `| GitHub prerelease | https://github.com/StijnCodeSetup/StijnCodeSetup/releases/tag/v${CURRENT_RELEASE} | must return the prerelease |`,
+          `| GitHub prerelease | https://github.com/stijnswapped/stijncodesetup/releases/tag/v${CURRENT_RELEASE} | must return the prerelease |`,
         ].join('\n'),
       });
 

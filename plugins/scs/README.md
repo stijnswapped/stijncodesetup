@@ -26,12 +26,13 @@ bumps both.
 
 ## Current Codex plugin-mode status
 
-With this layout, `codex plugin marketplace add StijnCodeSetup/StijnCodeSetup` discovers and
-installs `scs@scs`. Runtime skill loading from repo marketplaces is still
-unreliable upstream — Codex copies only the plugin folder into its install
-cache, and local/personal marketplace plugins are not always exposed at
-runtime (see [openai/codex#26037](https://github.com/openai/codex/issues/26037)
-and [StijnCodeSetup/StijnCodeSetup#2128](https://github.com/stijnswapped/stijncodesetup/issues/2128)).
+With this layout, `codex plugin marketplace add stijnswapped/stijncodesetup`
+can register and discover `scs@scs`. Runtime skill loading from repo
+marketplaces is still unreliable upstream — Codex copies only the plugin
+folder into its install cache, and local/personal marketplace plugins are not
+always exposed at runtime (see
+[openai/codex#26037](https://github.com/openai/codex/issues/26037) and
+[stijnswapped/stijncodesetup#2128](https://github.com/stijnswapped/stijncodesetup/issues/2128)).
 
 After install, `codex plugin list` is not enough to prove the runtime can load
 the referenced skills and assets. From an SCS checkout, run:

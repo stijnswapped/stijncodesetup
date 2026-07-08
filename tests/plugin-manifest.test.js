@@ -296,7 +296,7 @@ test('codex plugin.json has interface.displayName', () => {
 });
 
 test('codex plugin.json uses canonical SCS repo and display name', () => {
-  assert.strictEqual(codexPlugin.repository, 'https://github.com/StijnCodeSetup/StijnCodeSetup');
+  assert.strictEqual(codexPlugin.repository, 'https://github.com/stijnswapped/stijncodesetup');
   assert.strictEqual(codexPlugin.interface.displayName, 'SCS');
 });
 
@@ -516,7 +516,7 @@ test('user-facing docs do not use the legacy non-URL marketplace add form', () =
 test('.codex-plugin README uses current marketplace add flow', () => {
   const readme = fs.readFileSync(path.join(repoRoot, '.codex-plugin', 'README.md'), 'utf8');
   assert.ok(readme.includes('codex plugin marketplace add'), 'Expected .codex-plugin README to document codex plugin marketplace add');
-  assert.ok(readme.includes('codex plugin marketplace add StijnCodeSetup/StijnCodeSetup'), 'Expected .codex-plugin README to document the canonical SCS repo marketplace source');
+  assert.ok(readme.includes('codex plugin marketplace add stijnswapped/stijncodesetup'), 'Expected .codex-plugin README to document the canonical SCS repo marketplace source');
   assert.ok(readme.includes('Official Plugin Directory publishing is coming soon'), 'Expected .codex-plugin README to document current official directory status');
   assert.ok(!/\bcodex plugin install\b/.test(readme), 'codex plugin install is not a current Codex CLI command');
 });

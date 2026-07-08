@@ -8,7 +8,7 @@
     "url": "https://x.com/StijnCodeSetup"
   },
   "homepage": "https://scs.tools",
-  "repository": "https://github.com/StijnCodeSetup/StijnCodeSetup",
+  "repository": "https://github.com/stijnswapped/stijncodesetup",
   "license": "MIT",
   "keywords": ["codex", "agents", "skills", "tdd", "code-review", "security", "workflow", "automation"],
   "skills": "./skills/",

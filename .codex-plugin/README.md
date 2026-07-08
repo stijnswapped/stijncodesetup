@@ -24,7 +24,7 @@ marketplace source from the CLI:
 
 ```bash
 # Add the public repo marketplace
-codex plugin marketplace add StijnCodeSetup/StijnCodeSetup
+codex plugin marketplace add stijnswapped/stijncodesetup
 
 # Or add a local checkout while developing
 codex plugin marketplace add /absolute/path/to/SCS
@@ -46,8 +46,8 @@ its referenced skills, MCP config, and assets:
 node scripts/codex/check-plugin-cache.js
 ```
 
-> **Plugin mode is currently fragile on Codex.** Marketplace discovery and
-> install work with this layout, but runtime skill loading from local/repo
+> **Plugin mode is currently fragile on Codex.** Marketplace registration and
+> discovery work with this layout, but runtime skill loading from local/repo
 > marketplaces is unreliable upstream
 > ([openai/codex#26037](https://github.com/openai/codex/issues/26037)) — Codex
 > copies only the plugin folder into its install cache, so parent-referenced

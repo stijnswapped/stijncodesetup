@@ -187,7 +187,7 @@ function checkCache(options) {
     } else {
       log(`No installed cache entries found for ${options.marketplace}/${options.plugin}.`);
       if (options.marketplace === 'scs' && options.plugin === 'scs') {
-        log('Run: codex plugin marketplace add StijnCodeSetup/StijnCodeSetup');
+        log('Run: codex plugin marketplace add stijnswapped/stijncodesetup');
       } else {
         log('Install the requested plugin into the Codex plugin cache.');
       }

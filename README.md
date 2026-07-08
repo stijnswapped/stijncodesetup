@@ -47,14 +47,14 @@ git init
 git add .
 git commit -m "chore: initial clean SCS import"
 git branch -M main
-git remote add origin git@github.com:StijnCodeSetup/StijnCodeSetup.git
+git remote add origin git@github.com:stijnswapped/stijncodesetup.git
 git push -u origin main
 ```
 
 The raw installer default in `install.sh` is already set to:
 
 ```bash
-SCS_REPO_DEFAULT="StijnCodeSetup/StijnCodeSetup"
+SCS_REPO_DEFAULT="stijnswapped/stijncodesetup"
 ```
 
 If you publish under a different owner or repository name later, update
@@ -68,13 +68,29 @@ If you publish under a different owner or repository name later, update
 **Recommended default:** install the Claude Code plugin:
 
 ```text
-/plugin marketplace add https://github.com/StijnCodeSetup/StijnCodeSetup
+/plugin marketplace add https://github.com/stijnswapped/stijncodesetup
 /plugin install scs@scs
 /plugin list scs@scs
 /scs:plan "Add user authentication"
 ```
 
 **Do not stack install methods.** If you use `/plugin install scs@scs`, do not run the full installer afterwards. If you choose the manual installer path with `--profile full`, stop there. Do not also run `/plugin install`.
+
+For Codex, plugin marketplace setup is a CLI command, not a slash command:
+
+```bash
+codex plugin marketplace add stijnswapped/stijncodesetup
+codex plugin list
+node scripts/codex/check-plugin-cache.js
+```
+
+Codex repo-marketplace registration can discover `scs@scs`, but runtime skill
+loading from repo marketplaces is still unreliable upstream. For a reliable
+Codex install today, use the installer path:
+
+```bash
+./install.sh --target codex --profile minimal
+```
 
 ### Find the right components first
 
@@ -100,7 +116,7 @@ If you choose this path, stop there. Do not also run `/plugin install`.
 Raw GitHub install from the new repository:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/StijnCodeSetup/StijnCodeSetup/main/install.sh \
+curl -fsSL https://raw.githubusercontent.com/stijnswapped/stijncodesetup/main/install.sh \
   | bash -s -- --target claude --profile full
 ```
 
@@ -176,6 +192,8 @@ Cursor agent files are namespaced as `.cursor/agents/scs-*.md`. Cursor-native lo
 
 ### Release And Hermes Links
 
+- In-depth SCS system guide: [docs/SCS-DEEP-DIVE.md](docs/SCS-DEEP-DIVE.md)
+- Full skills and hooks catalog: [docs/SCS-SKILLS-HOOKS-CATALOG.md](docs/SCS-SKILLS-HOOKS-CATALOG.md)
 - Hermes setup: [docs/HERMES-SETUP.md](docs/HERMES-SETUP.md)
 - Current release notes: [docs/releases/2.0.0/release-notes.md](docs/releases/2.0.0/release-notes.md)
 

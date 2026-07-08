@@ -13,7 +13,7 @@
 
 set -euo pipefail
 
-SCS_REPO_DEFAULT="StijnCodeSetup/StijnCodeSetup"
+SCS_REPO_DEFAULT="stijnswapped/stijncodesetup"
 SCS_REF="${SCS_REF:-main}"
 SCS_REPO="${SCS_REPO:-$SCS_REPO_DEFAULT}"
 SCS_ARCHIVE_URL="${SCS_ARCHIVE_URL:-}"

@@ -1,0 +1,179 @@
+**Ngôn ngữ:** [English](../../README.md) | [Português (Brasil)](../pt-BR/README.md) | [简体中文](../../README.zh-CN.md) | [繁體中文](../zh-TW/README.md) | [日本語](../ja-JP/README.md) | [한국어](../ko-KR/README.md) | [Türkçe](../tr/README.md) | [Русский](../ru/README.md) | **Tiếng Việt** | [ไทย](../th/README.md) | [Deutsch](../de-DE/README.md)
+
+# StijnCodeSetup
+
+![StijnCodeSetup - hệ thống hiệu năng cho AI agent harness](../../assets/hero.png)
+
+[![Stars](https://img.shields.io/github/stars/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/stargazers)
+[![Forks](https://img.shields.io/github/forks/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/network/members)
+[![Contributors](https://img.shields.io/github/contributors/StijnCodeSetup/stijncodesetup?style=flat)](https://github.com/StijnCodeSetup/stijncodesetup/graphs/contributors)
+[![npm stijncodesetup](https://img.shields.io/npm/dw/stijncodesetup?label=stijncodesetup%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/stijncodesetup)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](../../LICENSE)
+
+> **140K+ sao** | **21K+ fork** | **170+ contributor** | **12+ hệ sinh thái ngôn ngữ** | **Anthropic Hackathon Winner**
+
+---
+
+<div align="center">
+
+**Ngôn ngữ / Language / 语言 / 語言 / Dil / Язык**
+
+[English](../../README.md) | [Português (Brasil)](../pt-BR/README.md) | [简体中文](../../README.zh-CN.md) | [繁體中文](../zh-TW/README.md) | [日本語](../ja-JP/README.md) | [한국어](../ko-KR/README.md) | [Türkçe](../tr/README.md) | [Русский](../ru/README.md) | **Tiếng Việt** | [ไทย](../th/README.md) | [Deutsch](../de-DE/README.md)
+
+</div>
+
+---
+
+**StijnCodeSetup là hệ thống tối ưu hiệu năng cho AI agent harness.**
+
+SCS không chỉ là một bộ cấu hình. Repo này đóng gói agents, skills, hooks, rules, MCP config, selective install, kiểm tra bảo mật, và workflow vận hành cho Claude Code, Codex, Cursor, OpenCode, Gemini và các harness agent khác.
+
+Trang tiếng Việt này là bản onboarding gọn, được phục hồi từ đóng góp cộng đồng trong PR [#1322](https://github.com/StijnCodeSetup/stijncodesetup/pull/1322) và cập nhật để khớp mặt cài đặt hiện tại. README tiếng Anh vẫn là nguồn chuẩn đầy đủ nhất.
+
+---
+
+## Bắt Đầu Nhanh
+
+### Chọn một đường cài đặt duy nhất
+
+Với Claude Code, phần lớn người dùng nên chọn đúng **một** trong hai đường:
+
+- **Khuyến nghị:** cài plugin Claude Code, sau đó copy thủ công chỉ những thư mục `rules/` bạn thật sự cần.
+- **Dùng installer thủ công** nếu bạn muốn kiểm soát chi tiết hơn, muốn tránh plugin, hoặc bản Claude Code của bạn không resolve được marketplace tự host.
+- **Không chồng nhiều cách cài lên nhau.** Cấu hình dễ hỏng nhất là `/plugin install` trước, rồi chạy tiếp `install.sh --profile full` hoặc `npx scs-install --profile full`.
+
+Nếu bạn đã cài chồng nhiều lần và thấy skill/hook bị trùng, xem [Reset / Gỡ SCS](#reset--gỡ-scs).
+
+### Cài plugin Claude Code
+
+```bash
+# Thêm marketplace
+/plugin marketplace add https://github.com/StijnCodeSetup/StijnCodeSetup
+
+# Cài plugin
+/plugin install scs@scs
+```
+
+SCS có ba định danh công khai khác nhau:
+
+- Repo GitHub: `StijnCodeSetup/stijncodesetup`
+- Plugin Claude marketplace: `scs@scs`
+- Gói npm: `stijncodesetup`
+
+Các tên này cố ý khác nhau. Plugin Claude Code dùng `scs@scs`; npm vẫn dùng `stijncodesetup`.
+
+### Copy rules nếu cần
+
+Plugin Claude Code không tự phân phối `rules/`. Nếu bạn đã cài bằng plugin, **đừng** chạy thêm full installer. Hãy copy riêng rule pack bạn muốn:
+
+```bash
+git clone https://github.com/StijnCodeSetup/stijncodesetup.git
+cd stijncodesetup
+
+mkdir -p ~/.claude/rules/scs
+cp -R rules/common ~/.claude/rules/scs/
+cp -R rules/typescript ~/.claude/rules/scs/
+```
+
+```powershell
+git clone https://github.com/StijnCodeSetup/stijncodesetup.git
+cd stijncodesetup
+
+New-Item -ItemType Directory -Force -Path "$HOME/.claude/rules/scs" | Out-Null
+Copy-Item -Recurse rules/common "$HOME/.claude/rules/scs/"
+Copy-Item -Recurse rules/typescript "$HOME/.claude/rules/scs/"
+```
+
+Copy cả thư mục ngôn ngữ, ví dụ `rules/common` hoặc `rules/golang`, thay vì copy từng file riêng lẻ.
+
+### Cài thủ công nếu không dùng plugin
+
+Chỉ dùng đường này nếu bạn cố ý bỏ qua plugin:
+
+```bash
+npm install
+./install.sh --profile full
+```
+
+```powershell
+npm install
+.\install.ps1 --profile full
+# hoặc
+npx scs-install --profile full
+```
+
+Nếu chọn đường thủ công, dừng ở đó. Đừng chạy thêm `/plugin install`.
+
+### Đường low-context / không hooks
+
+Nếu bạn chỉ muốn rules, agents, commands và core workflow skills, dùng profile tối thiểu:
+
+```bash
+./install.sh --profile minimal --target claude
+```
+
+```powershell
+.\install.ps1 --profile minimal --target claude
+# hoặc
+npx scs-install --profile minimal --target claude
+```
+
+Profile này cố ý không cài `hooks-runtime`.
+
+---
+
+## Reset / Gỡ SCS
+
+Nếu SCS bị trùng, quá xâm lấn, hoặc hoạt động sai, đừng tiếp tục cài đè lên chính nó.
+
+- **Đường plugin:** gỡ plugin trong Claude Code, rồi xoá các rule folder bạn đã copy thủ công dưới `~/.claude/rules/scs/`.
+- **Đường installer/CLI:** từ root repo, preview trước:
+
+```bash
+node scripts/uninstall.js --dry-run
+```
+
+Sau đó gỡ các file do SCS quản lý:
+
+```bash
+node scripts/uninstall.js
+```
+
+Bạn cũng có thể dùng lifecycle wrapper:
+
+```bash
+node scripts/scs.js list-installed
+node scripts/scs.js doctor
+node scripts/scs.js repair
+node scripts/scs.js uninstall --dry-run
+```
+
+SCS chỉ xoá file có trong install-state của nó. Nó không xoá file không liên quan.
+
+---
+
+## Tài Liệu Quan Trọng
+
+- [README tiếng Anh](../../README.md) - nguồn chuẩn đầy đủ nhất
+- [Hướng dẫn Hermes](../HERMES-SETUP.md)
+- [Release notes v2.0.0-rc.1](../releases/2.0.0-rc.1/release-notes.md)
+- [Kiến trúc cross-harness](../architecture/cross-harness.md)
+- [Troubleshooting](../TROUBLESHOOTING.md)
+- [Hook bug workarounds](../hook-bug-workarounds.md)
+
+---
+
+## Dùng Thử
+
+```bash
+# Plugin install dùng namespace đầy đủ
+/scs:plan "Thêm xác thực người dùng"
+
+# Manual install giữ dạng slash ngắn
+# /plan "Thêm xác thực người dùng"
+
+# Xem plugin đang cài
+/plugin list scs@scs
+```
+
+SCS hiện cung cấp hàng chục agent, hơn 200 skill và legacy command shim cho các workflow agent khác nhau. Kiểm tra README tiếng Anh để xem danh sách và hướng dẫn chi tiết nhất.

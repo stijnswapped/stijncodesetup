@@ -1,0 +1,47 @@
+{
+  "name": "scs",
+  "owner": {
+    "name": "Stijn",
+    "email": "me@StijnCodeSetup.com"
+  },
+  "metadata": {
+    "description": "Harness-native SCS skills, hooks, rules, MCP conventions, and operator workflows"
+  },
+  "plugins": [
+    {
+      "name": "scs",
+      "source": "./",
+      "description": "Harness-native SCS operator layer - 67 agents, 277 skills, 93 legacy command shims, reusable hooks, rules, selective install profiles, and production-ready workflows for Claude Code, Codex, OpenCode, Cursor, and related agent harnesses",
+      "version": "2.0.0",
+      "author": {
+        "name": "Stijn",
+        "email": "me@StijnCodeSetup.com"
+      },
+      "homepage": "https://scs.tools",
+      "repository": "https://github.com/StijnCodeSetup/StijnCodeSetup",
+      "license": "MIT",
+      "keywords": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "tdd",
+        "code-review",
+        "security",
+        "best-practices"
+      ],
+      "category": "workflow",
+      "tags": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "tdd",
+        "code-review",
+        "security",
+        "best-practices"
+      ],
+      "strict": false
+    }
+  ]
+}

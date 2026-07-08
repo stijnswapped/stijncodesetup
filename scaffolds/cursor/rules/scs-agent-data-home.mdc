@@ -1,0 +1,16 @@
+---
+description: "SCS Cursor memory boundary — keeps session data out of Claude Code's ~/.claude"
+alwaysApply: true
+---
+
+# SCS agent data home (Cursor)
+
+This project uses SCS with **isolated memory persistence** for Cursor:
+
+- Default data root: `~/.cursor/scs` (not `~/.claude`)
+- Env var: `SCS_AGENT_DATA_HOME` (set automatically by SCS's Cursor `sessionStart` hook when hooks are wired)
+- Project override: `.cursor/scs-agent-data.json` → `agentDataHome`
+
+If the user asks where SCS stored session context or learned skills, point them at `$SCS_AGENT_DATA_HOME/session-data/` and `$SCS_AGENT_DATA_HOME/skills/learned/`.
+
+To **share** memory with Claude Code intentionally (not recommended for parallel use), set `SCS_AGENT_DATA_HOME` to `~/.claude` in the shell or in `.cursor/scs-agent-data.json`.
